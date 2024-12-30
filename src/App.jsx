@@ -1,19 +1,13 @@
-import { useState } from 'react'
+import Footer from './components/Footer'
+import Header from './components/Header'
 
 function App() {
-  const [count, setCount] = useState(0)
 
   return (
-    <>
-      <div className="card">
-        <button className="btn" onClick={() => setCount((count) => count + 1)}>
-          count is {count}
-        </button>
-        <p>
-          Edit <code>src/App.jsx</code> and save to test HMR
-        </p>
-      </div>
-    </>
+    <div className='dark:bg-slate-800 bg-white min-h-screen w-svw flex flex-col items-center fonts-sans'>
+      <Header/>
+      <Footer/>
+    </div>
   )
 }
 
