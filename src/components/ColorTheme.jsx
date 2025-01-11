@@ -11,8 +11,8 @@ const ColorTheme = () => {
     }
 
     return (
-        <div className="rounded-2xl dark:bg-slate-800 bg-slate-300 w-16 h-6" onClick={handleChangeTheme}>
-            <div className="dark:bg-slate-50 bg-slate-800 h-6 rounded-2xl w-6 dark:float-right transition-float duration-1000"/>
+        <div className="rounded-2xl dark:bg-slate-800 bg-white w-12 h-6 cursor-pointer" onClick={handleChangeTheme}>
+            <div className="dark:bg-white bg-slate-800 h-6 rounded-2xl w-6 dark:float-right transition-float duration-1000"/>
         </div>
     )
 }

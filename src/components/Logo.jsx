@@ -1,6 +1,6 @@
 const Logo = () => {
     return (
-        <div className="logo dark:text-slate-50 text-slate-950 w-fit">
+        <div className="logo dark:text-white w-fit">
             RwfCurrency
         </div>
     )
